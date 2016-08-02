@@ -15,16 +15,19 @@ DEFINES *=  USE_IOCTL_LINUX
 DEFINES *= _LARGEFILE_SOURCE
 DEFINES *= _FILE_OFFSET_BITS=64
 
+MOC_DIR=./tmp
+OBJECTS_DIR=./tmp
+
 
 TEMPLATE = app
 
 
 SOURCES += \
-    cdromisoprocess.cpp \
-    main.cpp \
-    mediadetprocess.cpp
+    src/cdromisoprocess.cpp \
+    src/main.cpp \
+    src/mediadetprocess.cpp
 
 HEADERS += \
-    cdromisoprocess.h \
-    cdromisoinfo.h \
-    mediadetglobal.h
+    src/cdromisoprocess.h \
+    src/cdromisoinfo.h \
+    src/mediadetglobal.h
