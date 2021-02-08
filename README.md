@@ -3,9 +3,8 @@
 detect media os type in cdrom or iso9660 format iso file .  
     
 #Compile  
-    
-need file-devel package   
-需要file-devel 包
+centos need file-devel package   
+centos 需要file-devel 包
 
 can compile in qt5 and qt4
 
