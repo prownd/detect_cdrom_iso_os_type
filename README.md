@@ -5,11 +5,14 @@ detect media os type in cdrom or iso9660 format iso file .
 #Compile  
     
 need file-devel package   
-需要file-devel 包，适配 qt 4.x  
-  
-*qmake   
-*make   
-*./detect_media_os_type  
+需要file-devel 包
+
+can compile in qt5 and qt4
+
+qmake   
+qmake-qt5  in qt5 env
+make   
+./detect_media_os_type  
   
   
   
