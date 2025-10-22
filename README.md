@@ -21,8 +21,8 @@ make
 ./detect_media_os_type
 ```
 
-**The runing status screenshot is as follows:**
-[running status screenshot](https://raw.githubusercontent.com/prownd/detect_cdrom_iso_os_type/master/images/detect_os_type_status.jpeg "running status screenshot")
+**The runing status screenshot is as follows:**  
+[status screenshot](https://raw.githubusercontent.com/prownd/detect_cdrom_iso_os_type/master/images/detect_os_type_status.jpeg "running status screenshot")
 
 
 
